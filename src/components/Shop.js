@@ -36,6 +36,7 @@ function Shop () {
 
     return(
     <div className='container content'>
+        <button>NO</button>
         <Cart quantity={order.length}/>
         {
             loading ?
